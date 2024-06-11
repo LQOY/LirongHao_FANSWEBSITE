@@ -1,0 +1,253 @@
+* {
+  background-color: #d2e1ff;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(99, 159, 211);
+  padding: 16px;
+  margin: auto;
+  font-size: 60px;
+}
+
+
+body {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.3;
+
+}
+
+p::first-letter {
+  font-size: x-large;
+  color: rgb(137, 127, 122);
+}
+
+.topPageIcon {
+  width: 60px;
+  height: 60px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.topBar {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+.topPageNavBar {
+  padding: 16px;
+  margin: 16px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 25px 20px -200px;
+  width: 100%;
+  height: 60px;
+}
+.topPageNavItem {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-shadow: 1px 1px 0 #343b3c;
+  
+}
+ 
+.container a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 35px;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.container a:hover {
+  color: rgb(77, 136, 200);
+  text-shadow: 1px 1px 0 rgb(59, 105, 154);
+  background: lightyellow;
+  border-radius: 30px;
+}
+
+
+
+/* Content */
+/* Intro session*/
+.introSession {
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.artistName {
+  color: rgb(99, 159, 211);
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  width: 800px;
+  text-align: left;
+}
+
+
+.description {
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+  width: 500px;
+  text-align: left;
+}
+
+.picCollection {
+  border: 10px;
+  width: 100%;
+}
+.picCollection > img {
+  width: auto;
+  height: 600px;
+  margin: 20px;
+  display: inline-grid;
+
+  justify-content: center;
+}
+
+.firsttext {
+  background-color: transparent;
+  font-size: xx-large;
+  font-weight: 700;
+  color:rgb(99, 159, 211);
+}
+
+.bottomNavBar {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  bottom: 0;
+}
+.bottomIcon {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+/* Bio Page*/
+.bio {
+  margin: 10px;
+  margin-top: 60px;
+  padding: 15px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+ 
+}
+.biographyHead{
+  color: rgb(99, 159, 211); 
+}
+
+
+.pic {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.instrument {
+  width: 20%;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  align-items: center;
+}
+.instrument > img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+}
+.instrument > span {
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 300; 
+}
+
+.bioText {
+  text-align: left;
+  width: 800px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/*  disc Page*/
+.discographyPage{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  
+  
+}
+.albums {
+  margin-top: 60px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; 
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  
+}
+.albums > img {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.albums > span { 
+  text-align: left;
+  margin: 15px;
+  font-size: small;
+}
+.albName{
+  color: rgb(0, 0, 0); 
+  font-size:medium;
+  font-weight: 700;
+}
+
+
+/*video Page*/
+.videoPage {
+  width: 70%;
+  margin: 50px;
+}
